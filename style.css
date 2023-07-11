@@ -1,0 +1,139 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* First Section */
+
+
+.first-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    width: 600px;
+}
+.first-description{
+    width: 487px;
+    margin-top: 20px;
+    color: grey;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 15px 35px;
+    margin-top:5px ;
+    background-color: #E55473;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.front-container{
+    display: flex;
+   
+    width: 100%;
+    margin: auto;
+    background-color: #FEF6F8;
+}
+
+.left-container{
+    padding-right: 97px;
+    padding-left: 150px;
+    padding-top: 130px;
+}
+.first-img-div img{
+     max-width: 90%;
+     height: 95vh;
+     padding-top:15px;
+     padding-right: 25px;
+    
+}
+.first-img-div{
+    width: 80vh;
+    height: 97vh;
+    padding-top: 20px;
+    padding-right: 70px;
+}
+
+/* Second Section */
+/*text part*/
+.feature-description{
+    width: 410px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+}
+.feature-description h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+.feature-description p{
+    color: gray;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+ 
+}
+
+/*Image part*/
+
+.feature-flower{
+    display: flex;
+    justify-content: center;    
+    gap: 10px;
+    padding-bottom: 20px;
+    margin-right: 25px;
+}
+.feature-flower p{
+    background-color: white;
+}
+.box1{
+    background-color: #F2DEE7;
+    border-radius: 300px 300px 0px 0px;
+    width: 350px;
+    height: 360px;
+    margin-right:8px;
+
+}
+.box1 img{
+    height: 300px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+.box2{
+    background-color: #D9EFF1;
+    border-radius: 300px 300px 0px 0px;
+    width: 350px;
+    height: 360px;
+    margin-right: 8px;
+
+}
+.box2 img{
+    height: 300px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.box3{
+    background-color: #E3EBDB;
+    border-radius: 300px 300px 0px 0px;
+    width: 350px;
+    height: 360px;
+}
+
+.box3 img{
+    height: 300px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.box1 p,.box2 p,.box3 p{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 20px;
+}
